@@ -3,4 +3,5 @@
   (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/marbastlib-various.pretty")(options "")(descr ""))
   (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/marbastlib/parts")(options "")(descr ""))
   (lib (name "Sleep-lib")(type "KiCad")(uri "${KIPRJMOD}/Sleep-lib")(options "")(descr ""))
+  (lib (name "LED")(type "KiCad")(uri "${KIPRJMOD}/Crokto/LED.pretty")(options "")(descr ""))
 )
