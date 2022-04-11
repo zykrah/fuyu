@@ -125,7 +125,9 @@
         0.3,
         0.4,
         0.5,
-        0.7
+        0.7,
+        1.0,
+        1.5
       ],
       "via_dimensions": [
         {
@@ -368,7 +370,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rp-tkl.kicad_pro",
+    "filename": "fuyu.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -498,7 +500,6 @@
           "Net-(D81-Pad2)",
           "Net-(D82-Pad2)",
           "Net-(D83-Pad2)",
-          "Net-(D84-Pad2)",
           "Net-(D85-Pad2)",
           "Net-(D86-Pad2)",
           "Net-(D87-Pad2)",
@@ -506,7 +507,6 @@
           "Net-(D89-Pad2)",
           "Net-(D9-Pad2)",
           "Net-(D90-Pad2)",
-          "Net-(D91-Pad2)",
           "ROW0",
           "ROW1",
           "ROW2",
