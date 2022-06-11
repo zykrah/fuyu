@@ -1,17 +1,21 @@
 # Fuyu
  F12 TKL H87-Compat Type-C PCB for the Geon F1-8K, designed in KiCAD 6.0.
  
+**Disclaimer: This board has not been prototyped yet.**
+ 
  > Fuyu: Winter
 
-![image](https://user-images.githubusercontent.com/23428162/173171570-8e56f6e5-b098-457d-ba9e-01e4918eb757.png)
+![image](https://user-images.githubusercontent.com/23428162/173185118-c60e5f38-9746-4dd3-b5e9-eb2a8fda7c5c.png)
 
-![image](https://user-images.githubusercontent.com/23428162/173171573-f921b997-70e3-42c3-b4d6-0749cb67d63a.png)
+![image](https://user-images.githubusercontent.com/23428162/173185133-5268fa11-8489-4a17-9fcb-516a5b22030a.png)
+
 
 ## Features
-- Fits the h87(c) standard (means it should also be compatible with the F1-8X (non-f13)
+- Fits the h87(c) standard (means it should also be compatible with the F1-8X (non-f13))
 - Uses the RP2040 MCU (new), with 16MB of external flash
 - Has the 5 extra keys required for the F1-8X numpad/blocker (See below)
-- Has programmable SK6812 Mini-E ARGB LEDs for the "snowflake" (See below)
+- Has programmable 7 SK6812 Mini-E ARGB LEDs for the "snowflake" (See below)
+- Has 34 underglow LEDs (WS2812(C)-2020 LEDs)
 - TX LED indicators can be soldered in for: Caps, Scroll Lock, and Pause Break
 - Multi-layout, ANSI only (see below)
 - BOOT pins/header for getting into bootloader (short the pins while plugging in) if [bootmagic](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_bootmagic.md) isn't available . Acessible from both sides of the PCB, even when PCB is built in a keyboard. Just remove the **END key/switch** to access it.
@@ -24,12 +28,15 @@
 > Also, `Sleep-Lib` is just the library by [Sleepdealer](https://github.com/Sleepdealr), used in his [RP2040 Design guide](https://github.com/Sleepdealr/RP2040-designguide).
 
 ## WIP/Ideas
-- Add underglow LEDs
+- ~~Add underglow LEDs~~ DONE
+- Add more underglow LEDs to make the lighting more consistent
+- Add removable USB port + JST/Daughterboard connector
 - Add ISO support (enter and pipe keys)
 - Add more split space support/bottom row layout options
 - Add layout indicators to the silkscreen of the pcb
 - Do something more special with USB shield/ground connection (currently shield is connected straight to ground)
 - Break out pins for 3v3, 5v, spare GPIO
+- More via stitching
 
 ## Multi-Layout Support
 
