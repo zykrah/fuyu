@@ -5,9 +5,9 @@
  
  > Fuyu: Winter
 
-![image](https://user-images.githubusercontent.com/23428162/173188452-d292c2a4-c0b7-4c77-b6df-73b7dd002739.png)
+![image](https://user-images.githubusercontent.com/23428162/173192820-fa6776d8-a1f7-4ab7-801b-f5c485a07f30.png)
 
-![image](https://user-images.githubusercontent.com/23428162/173188448-ea0723d6-f280-44d4-bab2-cfe09fb895ae.png)
+![image](https://user-images.githubusercontent.com/23428162/173192837-1850279c-df15-4739-a330-98bf92549256.png)
 
 
 ## Features
@@ -17,7 +17,7 @@
 - Has programmable 7 SK6812 Mini-E ARGB LEDs for the "snowflake" (See below)
 - Has 34 underglow LEDs (WS2812(C)-2020 LEDs)
 - TX LED indicators can be soldered in for: Caps, Scroll Lock, and Pause Break
-- Multi-layout, ANSI only (see below)
+- Multi-layout (see below)
 - BOOT pins/header for getting into bootloader (short the pins while plugging in) if [bootmagic](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_bootmagic.md) isn't available . Acessible from both sides of the PCB, even when PCB is built in a keyboard. Just remove the **END key/switch** to access it.
 - SWD header for debugging
 - ESD chip (SRV05-4) to prevent damage from electrostatic discharge
@@ -31,7 +31,7 @@
 - ~~Add underglow LEDs~~ DONE
 - Add more underglow LEDs to make the lighting more consistent
 - Add removable USB port + JST/Daughterboard connector
-- Add ISO support (enter and pipe keys)
+- ~~Add ISO support (enter and pipe keys)~~ DONE
 - Add more split space support/bottom row layout options
 - Add layout indicators to the silkscreen of the pcb
 - Do something more special with USB shield/ground connection (currently shield is connected straight to ground)
@@ -40,11 +40,9 @@
 
 ## Multi-Layout Support
 
-> ANSI only because it made routing easier
-
 Note the keys that have LED indicator support.
 
-![image](https://user-images.githubusercontent.com/23428162/173172051-00bcb39f-08ca-4e56-995d-9a3a80f949a4.png)
+![image](https://user-images.githubusercontent.com/23428162/173192900-2607653f-76fe-4558-9563-d40445c1b6b9.png)
 
 
 ## Snowflake LED
