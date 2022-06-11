@@ -4543,6 +4543,9 @@
     (path "/0725a7ea-5a55-410a-a32c-06489f3e6998/bc402565-7191-476f-8d51-47b7d5763168"
       (reference "R10") (unit 1) (value "470") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/0725a7ea-5a55-410a-a32c-06489f3e6998/00562541-eb80-40d3-bcb9-ac78a3a5c4a7"
+      (reference "R11") (unit 1) (value "470") (footprint "")
+    )
     (path "/0725a7ea-5a55-410a-a32c-06489f3e6998/2d859cf8-5d45-4695-a354-00981c5d2259"
       (reference "S1") (unit 1) (value "BACKSPACE") (footprint "marbastlib-mx:STAB_MX_2u")
     )
