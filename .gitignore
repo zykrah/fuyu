@@ -1,7 +1,8 @@
-rp-tkl-backups/
+fuyu-backups/
 #auto_saved_files#
 _autosave-matrix.kicad_sch
 _autosave-matrix.kicad_pcb
 jlcpcb/
 *.kicad_sch-bak
 *.kicad_pcb-bak
+\#auto_saved_files\#
