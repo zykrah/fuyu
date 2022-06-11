@@ -5,9 +5,9 @@
  
  > Fuyu: Winter
 
-![image](https://user-images.githubusercontent.com/23428162/173185118-c60e5f38-9746-4dd3-b5e9-eb2a8fda7c5c.png)
+![image](https://user-images.githubusercontent.com/23428162/173188452-d292c2a4-c0b7-4c77-b6df-73b7dd002739.png)
 
-![image](https://user-images.githubusercontent.com/23428162/173185133-5268fa11-8489-4a17-9fcb-516a5b22030a.png)
+![image](https://user-images.githubusercontent.com/23428162/173188448-ea0723d6-f280-44d4-bab2-cfe09fb895ae.png)
 
 
 ## Features
