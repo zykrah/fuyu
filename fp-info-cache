@@ -1,4 +1,4 @@
-19923780623259903
+19922138164027118
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55642,13 +55642,6 @@ solder jumper open
 0
 5
 3
-LED
-MHT151RGBCT-RGB-Reverse-Mount-1206
-https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
-LED RGB NeoPixel Mini
-0
-4
-4
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
