@@ -3470,7 +3470,7 @@
     (uuid 00562541-eb80-40d3-bcb9-ac78a3a5c4a7)
     (property "Reference" "R11" (id 0) (at 27.305 165.4769 90))
     (property "Value" "470" (id 1) (at 27.305 168.252 90))
-    (property "Footprint" "" (id 2) (at 27.305 170.18 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 27.305 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 27.305 170.18 0)
