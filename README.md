@@ -1,2 +1,75 @@
-# fuyu
- F12 TKL pcb for the Geon F1-8X/8K
+# Fuyu
+ F12 TKL H87-Compat Type-C PCB for the Geon F1-8K, designed in KiCAD 6.0.
+ 
+ > Fuyu: Winter
+
+![image](https://user-images.githubusercontent.com/23428162/173171570-8e56f6e5-b098-457d-ba9e-01e4918eb757.png)
+
+![image](https://user-images.githubusercontent.com/23428162/173171573-f921b997-70e3-42c3-b4d6-0749cb67d63a.png)
+
+## Features
+- Fits the h87(c) standard (means it should also be compatible with the F1-8X (non-f13)
+- Uses the RP2040 MCU (new), with 16MB of external flash
+- Has the 5 extra keys required for the F1-8X numpad/blocker (See below)
+- Has programmable SK6812 Mini-E ARGB LEDs for the "snowflake" (See below)
+- TX LED indicators can be soldered in for: Caps, Scroll Lock, and Pause Break
+- Multi-layout, ANSI only (see below)
+- BOOT pins/header for getting into bootloader (short the pins while plugging in) if [bootmagic](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_bootmagic.md) isn't available . Acessible from both sides of the PCB, even when PCB is built in a keyboard. Just remove the **END key/switch** to access it.
+- SWD header for debugging
+- ESD chip (SRV05-4) to prevent damage from electrostatic discharge
+- Polyfuse to prevent overcurrent
+- Optimized for manufacturing and assembly with JLCPCB
+- Bonus: Curved traces and teardrops
+
+> Also, `Sleep-Lib` is just the library by [Sleepdealer](https://github.com/Sleepdealr), used in his [RP2040 Design guide](https://github.com/Sleepdealr/RP2040-designguide).
+
+## WIP/Ideas
+- Add underglow LEDs
+- Add ISO support (enter and pipe keys)
+- Add more split space support/bottom row layout options
+- Add layout indicators to the silkscreen of the pcb
+- Do something more special with USB shield/ground connection (currently shield is connected straight to ground)
+- Break out pins for 3v3, 5v, spare GPIO
+
+## Multi-Layout Support
+
+> ANSI only because it made routing easier
+
+Note the keys that have LED indicator support.
+
+![image](https://user-images.githubusercontent.com/23428162/173172051-00bcb39f-08ca-4e56-995d-9a3a80f949a4.png)
+
+
+## Snowflake LED
+
+The LEDs are typically TX LEDs that you have to solder in (i.e. Snow Pro PCB), but with this PCB I made them SK6812 Mini-E Reverse-mount ARGB LEDs
+
+- Reverse mount to keep as many components on the same side of the PCB as possible (for cheaper assembly)
+- RGB and programmable
+- NOTE: Since these are surface mounted onto the PCB, they'll probably leak light. Could be fixed with light pipes or something else used to isolate the led rays from eachother. 
+
+Snowflake LED (Snow Pro PCB) [(source)](https://imgur.com/gallery/PWgU1so):
+
+![image](https://user-images.githubusercontent.com/23428162/173171805-9e53ca19-3b54-4cbd-8b22-2a6411c695ef.png)
+
+What it looks like close up on my PCB:
+
+![image](https://user-images.githubusercontent.com/23428162/173171768-b1997bdf-f9b5-47bb-8ce6-2434e8a428b5.png)
+
+![image](https://user-images.githubusercontent.com/23428162/173171764-04877107-7074-43cf-b724-60f023c4a2f1.png)
+
+
+
+## Blocker
+(These are photos of an F1-8K with a Snow Pro PCB, not this PCB)
+
+Blocker attached, unattached, and outside the board [(source)](https://imgur.com/gallery/PWgU1so):
+
+![image](https://user-images.githubusercontent.com/23428162/173171785-204a90aa-8525-4962-9c77-a5bbc544fd98.png)
+
+![image](https://user-images.githubusercontent.com/23428162/173171855-8923517a-5afe-4d32-adc5-5c5c9a072711.png)
+
+
+ What blocker looks like screwed in from the back:
+
+![image](https://user-images.githubusercontent.com/23428162/173171709-e3288a28-84b4-4c09-b1b5-62d534b72170.png)
