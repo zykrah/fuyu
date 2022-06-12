@@ -5,9 +5,9 @@
  
  > Fuyu: Winter
 
-![image](https://user-images.githubusercontent.com/23428162/173194794-921fb488-5740-4039-a170-4573084dd91a.png)
+![image](https://user-images.githubusercontent.com/23428162/173242896-39ed07ce-ba2a-473d-a73b-6189538d4ace.png)
 
-![image](https://user-images.githubusercontent.com/23428162/173194807-1b122b82-637a-4bc3-aa8f-87f67407eb9e.png)
+![image](https://user-images.githubusercontent.com/23428162/173242911-ce343f14-1dd3-4f5c-9337-3b3a7f97995a.png)
 
 
 ## Features
@@ -16,7 +16,6 @@
 - Has the 5 extra keys required for the F1-8X numpad/blocker (See below)
 - Has programmable 7 SK6812 Mini-E ARGB LEDs for the "snowflake" (See below)
 - Has 34 underglow LEDs (WS2812(C)-2020 LEDs)
-- TX LED indicators can be soldered in for: Caps, Scroll Lock, and Pause Break
 - Multi-layout (see below)
 - BOOT pins/header for getting into bootloader (short the pins while plugging in) if [bootmagic](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_bootmagic.md) isn't available . Acessible from both sides of the PCB, even when PCB is built in a keyboard. Just remove the **END key/switch** to access it.
 - SWD header for debugging
@@ -40,7 +39,7 @@
 
 ## Multi-Layout Support
 
-Note the keys that have LED indicator support.
+~~Note the keys that have LED indicator support.~~ Removed
 
 ![image](https://user-images.githubusercontent.com/23428162/173192900-2607653f-76fe-4558-9563-d40445c1b6b9.png)
 
