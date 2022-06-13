@@ -5,9 +5,11 @@
  
  > Fuyu: Winter
 
-![image](https://user-images.githubusercontent.com/23428162/173243712-c4546cb4-846f-49c1-bf20-b37377630ee9.png)
+![image](https://user-images.githubusercontent.com/23428162/173288582-8047ac55-1b19-4a1d-a59a-7c4d466213c2.png)
 
-![image](https://user-images.githubusercontent.com/23428162/173243713-6906df8c-ef3d-4ee2-9b1d-3ec710aff7af.png)
+![image](https://user-images.githubusercontent.com/23428162/173288587-bcbf432d-172f-419a-8a8b-ff128b5090c1.png)
+
+![image](https://user-images.githubusercontent.com/23428162/173289100-b6df0503-4f23-4a3a-a53e-c50392240920.png)
 
 
 ## Features
@@ -58,9 +60,9 @@ Snowflake LED (Snow Pro PCB) [(source)](https://imgur.com/gallery/PWgU1so):
 
 What it looks like close up on my PCB:
 
-![image](https://user-images.githubusercontent.com/23428162/173194816-5e418f11-7e2e-4253-901c-96ff8c0e067c.png)
+![image](https://user-images.githubusercontent.com/23428162/173289614-038f76c7-7c96-496d-881e-9553b830d751.png)
 
-![image](https://user-images.githubusercontent.com/23428162/173194825-bf7cd126-6020-47d6-b501-67cb6bb582cb.png)
+![image](https://user-images.githubusercontent.com/23428162/173289637-46e462bf-1fc8-4964-b973-eec148557887.png)
 
 
 ## Blocker
