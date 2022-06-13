@@ -5,6 +5,8 @@
  
  > Fuyu: Winter
 
+Photos (I try to keep them up to date, but they may not always be):
+
 ![image](https://user-images.githubusercontent.com/23428162/173288582-8047ac55-1b19-4a1d-a59a-7c4d466213c2.png)
 
 ![image](https://user-images.githubusercontent.com/23428162/173288587-bcbf432d-172f-419a-8a8b-ff128b5090c1.png)
