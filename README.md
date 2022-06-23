@@ -1,17 +1,25 @@
 # Fuyu
  F12 TKL H87-Compat Type-C PCB for the Geon F1-8K, designed in KiCAD 6.0.
  
-**Disclaimer: This board has not been prototyped yet.**
+**This board has now been prototyped! See IRL images below.**
  
  > Fuyu: Winter
 
-Photos (I try to keep them up to date, but they may not always be):
+Photos/Renders (I try to keep them up to date, but they may not always be):
 
 ![image](https://user-images.githubusercontent.com/23428162/173288582-8047ac55-1b19-4a1d-a59a-7c4d466213c2.png)
 
 ![image](https://user-images.githubusercontent.com/23428162/173288587-bcbf432d-172f-419a-8a8b-ff128b5090c1.png)
 
 ![image](https://user-images.githubusercontent.com/23428162/173289100-b6df0503-4f23-4a3a-a53e-c50392240920.png)
+
+IRL photos of rev1 protos (I don't actually own an F1-8K but I'll upload photos of my PCB in one when I get the chance):
+
+![image](https://user-images.githubusercontent.com/23428162/175324271-d6ced88e-8490-4731-be7d-b73aabc4a0a7.png)
+
+![image](https://user-images.githubusercontent.com/23428162/175324737-971ca447-1d73-4948-a0af-c8c13dcbce4b.png)
+
+![image](https://user-images.githubusercontent.com/23428162/175324347-67ed2a7c-4865-4b66-b694-503b91dba786.png)
 
 
 ## Features
@@ -29,6 +37,11 @@ Photos (I try to keep them up to date, but they may not always be):
 - Bonus: Curved traces and teardrops
 
 > Also, `Sleep-Lib` is just the library by [Sleepdealer](https://github.com/Sleepdealr), used in his [RP2040 Design guide](https://github.com/Sleepdealr/RP2040-designguide).
+
+
+## Firmware
+You can find the firmware [here](https://github.com/zykrah/vial-qmk/tree/rp2040/keyboards/zykrah/fuyu). As of writing, the board runs the rp2040 branch/fork of vial-qmk. I will update this to use the official QMK implementation of RP2040 when it releases.
+
 
 ## WIP/Ideas
 - ~~Add underglow LEDs~~ DONE
