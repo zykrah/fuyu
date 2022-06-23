@@ -42,6 +42,8 @@ IRL photos of rev1 protos (I don't actually own an F1-8K but I'll upload photos 
 ## Firmware
 You can find the firmware [here](https://github.com/zykrah/vial-qmk/tree/rp2040/keyboards/zykrah/fuyu). As of writing, the board runs the rp2040 branch/fork of vial-qmk. I will update this to use the official QMK implementation of RP2040 when it releases.
 
+![image](https://user-images.githubusercontent.com/23428162/175326950-fc93dad0-5560-4668-9928-25309f9d02e1.png)
+
 
 ## WIP/Ideas
 - ~~Add underglow LEDs~~ DONE
