@@ -13,7 +13,7 @@ Photos/Renders (I try to keep them up to date, but they may not always be):
 
 ![image](https://user-images.githubusercontent.com/23428162/173289100-b6df0503-4f23-4a3a-a53e-c50392240920.png)
 
-IRL photos of rev1 protos (I don't actually own an F1-8K but I'll upload photos of my PCB in one when I get the chance):
+IRL photos of rev1 protos (See further down the page for more photos):
 
 ![image](https://user-images.githubusercontent.com/23428162/175324271-d6ced88e-8490-4731-be7d-b73aabc4a0a7.png)
 
@@ -40,10 +40,23 @@ IRL photos of rev1 protos (I don't actually own an F1-8K but I'll upload photos 
 
 
 ## Firmware
-You can find the firmware [here](https://github.com/zykrah/vial-qmk/tree/rp2040/keyboards/zykrah/fuyu). As of writing, the board runs the rp2040 branch/fork of vial-qmk. I will update this to use the official QMK implementation of RP2040 when it releases.
+~~As of writing, the board runs the rp2040 branch/fork of vial-qmk. I will update this to use the official QMK implementation of RP2040 when it releases.~~ UPDATE: RP2040 support has recently made it into QMK's `develop` branch. It will be fully merged to `master` by Q3 this year. Until then, the official maintainer of vial doesn't intend to merge those changes into their vial repo either, so I have made my own fork for the boards. When vial-qmk is officially updated to use QMK's implementiation of the RP2040, I will update this page once again linking to that, assuming I get the board merged into the official repo too. You can find the up-to-date firmware [here](https://github.com/zykrah/vial-qmk/tree/vial-develop/keyboards/zykrah/fuyu).
+
+This board runs on [VIAL](https://get.vial.today/download/). Download and run it, and it should automatically detect the board.
 
 ![image](https://user-images.githubusercontent.com/23428162/175326950-fc93dad0-5560-4668-9928-25309f9d02e1.png)
 
+### Flashing
+
+To flash an RP2040 board, you need to get it into bootloader mode. You can do this in two ways:
+1. If the board already has functioning QMK firmware on it, you can simply hold the top left key (ESC) while plugging the board in
+2. If for some reason the first method doesn't work, you can enter bootloader by shorting the `BOOT` pins located underneath the END key while plugging the board in
+
+The board will appear as a drive on your computer as `RPI-RP2`.
+
+![image](https://user-images.githubusercontent.com/23428162/177196278-5fe35d26-c702-4454-9853-49a5270c35e3.png)
+
+Then you just need to move/copy/drag the firmware file (`.uf2` file) into that drive, and it should flash.
 
 ## WIP/Ideas
 - ~~Add underglow LEDs~~ DONE
@@ -58,8 +71,6 @@ You can find the firmware [here](https://github.com/zykrah/vial-qmk/tree/rp2040/
 
 ## Multi-Layout Support
 
-~~Note the keys that have LED indicator support.~~ Removed
-
 ![image](https://user-images.githubusercontent.com/23428162/173192900-2607653f-76fe-4558-9563-d40445c1b6b9.png)
 
 
@@ -71,11 +82,11 @@ The LEDs are typically TX LEDs that you have to solder in (i.e. Snow Pro PCB), b
 - RGB and programmable
 - NOTE: Since these are surface mounted onto the PCB, they'll probably leak light. Could be fixed with light pipes or something else used to isolate the led rays from eachother. 
 
-Snowflake LED (Snow Pro PCB) [(source)](https://imgur.com/gallery/PWgU1so):
+Snowflake LED IRL (NOTE: brightness has been modified in firmware to lower light leak):
 
-![image](https://user-images.githubusercontent.com/23428162/173171805-9e53ca19-3b54-4cbd-8b22-2a6411c695ef.png)
+![image](https://user-images.githubusercontent.com/23428162/177195014-1e64f7b9-a0cc-4141-bd91-7be9d9dd1cc2.png)
 
-What it looks like close up on my PCB:
+What it looks like close up on my PCB (KICAD preview/renders):
 
 ![image](https://user-images.githubusercontent.com/23428162/173289614-038f76c7-7c96-496d-881e-9553b830d751.png)
 
@@ -83,15 +94,15 @@ What it looks like close up on my PCB:
 
 
 ## Blocker
-(These are photos of an F1-8K with a Snow Pro PCB, not this PCB)
 
-Blocker attached, unattached, and outside the board [(source)](https://imgur.com/gallery/PWgU1so):
+Blocker attached, unattached, and outside the board (test fit photos courtesy of my friend):
 
-![image](https://user-images.githubusercontent.com/23428162/173171785-204a90aa-8525-4962-9c77-a5bbc544fd98.png)
+![image](https://user-images.githubusercontent.com/23428162/177194600-d748172b-6a8c-4ced-abd9-ef7ae97c55a8.png)
 
-![image](https://user-images.githubusercontent.com/23428162/173171855-8923517a-5afe-4d32-adc5-5c5c9a072711.png)
+![image](https://user-images.githubusercontent.com/23428162/177194704-49909b1c-3749-4116-a4dd-4b31962de60d.png)
 
+![image](https://user-images.githubusercontent.com/23428162/177195422-780b1844-a2f0-4927-a5e0-55bd36dd5747.png)
 
  What blocker looks like screwed in from the back:
 
-![image](https://user-images.githubusercontent.com/23428162/173171709-e3288a28-84b4-4c09-b1b5-62d534b72170.png)
+![image](https://user-images.githubusercontent.com/23428162/177195448-bddc7c51-15eb-425e-a64b-a30716326048.png)
