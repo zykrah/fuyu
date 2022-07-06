@@ -71,7 +71,7 @@ Then you just need to move/copy/drag the firmware file (`.uf2` file) into that d
 
 ## Multi-Layout Support
 
-![image](https://user-images.githubusercontent.com/23428162/173192900-2607653f-76fe-4558-9563-d40445c1b6b9.png)
+![image](https://user-images.githubusercontent.com/23428162/177591986-058a0617-9812-4835-b993-37c275612ae7.png)
 
 
 ## Snowflake LED
