@@ -36,7 +36,6 @@
       8,
       9,
       10,
-      11,
       13,
       14,
       15,
@@ -61,8 +60,8 @@
       35,
       36
     ],
-    "visible_layers": "0005230_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "0005200_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "fuyu.kicad_prl",

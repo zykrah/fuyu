@@ -5,3 +5,5 @@ _autosave-matrix.kicad_pcb
 *.kicad_sch-bak
 *.kicad_pcb-bak
 \#auto_saved_files\#
+manufacturing/
+*.log
