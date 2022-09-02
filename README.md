@@ -1,11 +1,16 @@
 # Fuyu
  F12 TKL H87-Compat Type-C PCB for the Geon F1-8K, designed in KiCAD 6.0.
  
-**This board has now been prototyped! See IRL images below.**
- 
- > Fuyu: Winter
+ > Fuyu, meaning Winter (in Japanese ofcourse)
 
-Photos/Renders (I try to keep them up to date, but they may not always be):
+## Availability
+
+**UPDATE: I have partenered with Geon to make these available for purchase! As of writing, they are available [here on Geon's store](https://geon.works/products/fuyu-pcb-for-f1-8k).**
+
+![image](https://user-images.githubusercontent.com/23428162/188166517-08c0ee08-2d27-457b-b19a-0e0a8b118f37.png)
+
+## Photos/Renders 
+I try to keep them up to date, but they may not always be:
 
 ![image](https://user-images.githubusercontent.com/23428162/173288582-8047ac55-1b19-4a1d-a59a-7c4d466213c2.png)
 
@@ -40,7 +45,11 @@ IRL photos of rev1 protos (See further down the page for more photos):
 
 
 ## Firmware
-~~As of writing, the board runs the rp2040 branch/fork of vial-qmk. I will update this to use the official QMK implementation of RP2040 when it releases.~~ UPDATE: RP2040 support has recently made it into QMK's `develop` branch. It will be fully merged to `master` by Q3 this year. Until then, the official maintainer of vial doesn't intend to merge those changes into their vial repo either, so I have made my own fork for the boards. When vial-qmk is officially updated to use QMK's implementiation of the RP2040, I will update this page once again linking to that, assuming I get the board merged into the official repo too. You can find the up-to-date firmware [here](https://github.com/zykrah/vial-qmk/tree/vdev-zykrah/keyboards/zykrah/fuyu).
+~~As of writing, the board runs the rp2040 branch/fork of vial-qmk. I will update this to use the official QMK implementation of RP2040 when it releases.~~
+
+~~UPDATE: RP2040 support has recently made it into QMK's `develop` branch. It will be fully merged to `master` by Q3 this year. Until then, the official maintainer of vial doesn't intend to merge those changes into their vial repo either, so I have made my own fork for the boards. When vial-qmk is officially updated to use QMK's implementiation of the RP2040, I will update this page once again linking to that, assuming I get the board merged into the official repo too.~~
+
+UPDATE 2: RP2040 support has now been merged to `master`. I have not yet submitted PRs to merge the FUYU into the official qmk/vial-qmk yet. For now, you can find the up-to-date firmware [here](https://github.com/zykrah/vial-qmk/tree/vdev-zykrah/keyboards/zykrah/fuyu).
 
 This board runs on [VIAL](https://get.vial.today/download/). Download and run it, and it should automatically detect the board.
 
