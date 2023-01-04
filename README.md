@@ -7,7 +7,11 @@
 
 **UPDATE: I have partenered with Geon to make these available for purchase! As of writing, they are available [here on Geon's store](https://geon.works/products/fuyu-pcb-for-f1-8k).**
 
+**They are also [available on CustomKBD](https://customkbd.com/products/fuyu-pcb-for-f1-8k).**
+
 ![image](https://user-images.githubusercontent.com/23428162/188166517-08c0ee08-2d27-457b-b19a-0e0a8b118f37.png)
+
+![image](https://user-images.githubusercontent.com/23428162/210485233-4719a329-8249-44ba-88f0-81bde1015c26.png)
 
 ## Photos/Renders 
 I try to keep them up to date, but they may not always be:
@@ -49,9 +53,12 @@ IRL photos of rev1 protos (See further down the page for more photos):
 
 ~~UPDATE: RP2040 support has recently made it into QMK's `develop` branch. It will be fully merged to `master` by Q3 this year. Until then, the official maintainer of vial doesn't intend to merge those changes into their vial repo either, so I have made my own fork for the boards. When vial-qmk is officially updated to use QMK's implementiation of the RP2040, I will update this page once again linking to that, assuming I get the board merged into the official repo too.~~
 
-UPDATE 2: RP2040 support has now been merged to `master`. I have not yet submitted PRs to merge the FUYU into the official qmk/vial-qmk yet. For now, you can find the up-to-date firmware [here](https://github.com/zykrah/vial-qmk/tree/vdev-zykrah/keyboards/zykrah/fuyu).
+~~UPDATE 2: RP2040 support has now been merged to `master`. I have not yet submitted PRs to merge the FUYU into the official qmk/vial-qmk yet. For now, you can find the up-to-date firmware [here](https://github.com/zykrah/vial-qmk/tree/vdev-zykrah/keyboards/zykrah/fuyu).~~
 
-This board runs on [VIAL](https://get.vial.today/download/). Download and run it, and it should automatically detect the board.
+
+You can find the up-to-date VIAL firmware [here](https://github.com/zykrah/vial-qmk/tree/vdev-zykrah/keyboards/zykrah/slime88). This firmware utilises [VIAL](https://get.vial.today/download/). Download and run it, and it should automatically detect the board. (Boards sold on Geon's store should come with VIAL firmware installed by default)
+
+**UPDATE**: The board is now also in [qmk master](https://github.com/qmk/qmk_firmware/tree/master/keyboards/zykrah/slime88). (This particular version will only be VIA compatible). It should automatically be detected in VIA if you want to use that instead.
 
 ![image](https://user-images.githubusercontent.com/23428162/175326950-fc93dad0-5560-4668-9928-25309f9d02e1.png)
 
