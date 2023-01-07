@@ -1,4 +1,4 @@
-56023151886132
+57801952645152
 marbastlib-mx
 LED_MX_3mm
 Add-on for regular MX-footprints with 3mm LED
@@ -232,6 +232,13 @@ Footprint for Cherry MX style switches with Kailh hotswap socket
 2
 marbastlib-mx
 SW_MX_HS_1u
+Footprint for Cherry MX style switches with Kailh hotswap socket
+
+0
+6
+2
+marbastlib-mx
+SW_MX_HS_S_1u
 Footprint for Cherry MX style switches with Kailh hotswap socket
 
 0
