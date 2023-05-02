@@ -56,9 +56,9 @@ IRL photos of rev1 protos (See further down the page for more photos):
 ~~UPDATE 2: RP2040 support has now been merged to `master`. I have not yet submitted PRs to merge the FUYU into the official qmk/vial-qmk yet. For now, you can find the up-to-date firmware [here](https://github.com/zykrah/vial-qmk/tree/vdev-zykrah/keyboards/zykrah/fuyu).~~
 
 
-You can find the up-to-date VIAL firmware [here](https://github.com/zykrah/vial-qmk/tree/vdev-zykrah/keyboards/zykrah/slime88). This firmware utilises [VIAL](https://get.vial.today/download/). Download and run it, and it should automatically detect the board. (Boards sold on Geon's store should come with VIAL firmware installed by default)
+You can find the up-to-date VIAL firmware [here](https://github.com/zykrah/vial-qmk/tree/vdev-zykrah/keyboards/zykrah/fuyu). This firmware utilises [VIAL](https://get.vial.today/download/). Download and run it, and it should automatically detect the board. (Boards sold on Geon's store should come with VIAL firmware installed by default)
 
-**UPDATE**: The board is now also in [qmk master](https://github.com/qmk/qmk_firmware/tree/master/keyboards/zykrah/slime88). (This particular version will only be VIA compatible). It should automatically be detected in VIA if you want to use that instead.
+**UPDATE**: The board is now also in [qmk master](https://github.com/qmk/qmk_firmware/tree/master/keyboards/zykrah/fuyu). (This particular version will only be VIA compatible). It should automatically be detected in VIA if you want to use that instead.
 
 ![image](https://user-images.githubusercontent.com/23428162/175326950-fc93dad0-5560-4668-9928-25309f9d02e1.png)
 
